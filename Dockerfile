@@ -3,4 +3,4 @@ FROM httpd
 
 # Maintainer 
 MAINTAINER "oumarkenneh" 
-COPY /*.war /var/www/html
+COPY ./index.html /var/www/html
