@@ -1,7 +1,6 @@
 # Pull base image 
-FROM tomcat:8-jre8 
+FROM httpd 
 
 # Maintainer 
 MAINTAINER "oumarkenneh" 
-RUN cd webapps.dist && cp -R * ../webapps
 COPY /*.war /var/www/html
