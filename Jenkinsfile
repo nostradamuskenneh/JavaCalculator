@@ -11,7 +11,7 @@ pipeline {
                     mvn dependency:tree
                     mvn package
                     cd target
-                    mv LoginWebApp.war $WORKSPACE
+                    mv RaviCalculator.jar $WORKSPACE
                     
                     pwd
                     ls
